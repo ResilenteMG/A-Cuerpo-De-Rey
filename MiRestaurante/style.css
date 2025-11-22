@@ -1,0 +1,12 @@
+.header-with-background {
+    height: 100vb;
+    background-image: url("/img/logo final A cuerpo de Rey.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    width: 20pc;
+    float: right;
+}
