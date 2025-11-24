@@ -1,11 +1,18 @@
-.header-with-background {
-    height: 100vb;
-    background-image: url("/img/logo final A cuerpo de Rey.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+header{
+    background-color: blue;
 
+}
+.log{
+    width: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+main{
+    background-color: antiquewhite;
+}
 .menu {
     width: 20pc;
     float: right;
