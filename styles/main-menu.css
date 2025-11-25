@@ -1,0 +1,64 @@
+/* Contenedor principal del menu */
+.menu-main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px; /* margen lateral */
+}
+
+/* Separacion entre bloques del menu */
+.menu-section {
+    margin-top: 50px;
+}
+
+/* Mas espacio antes de los platos principales */
+.menu-section--principales {
+    margin-top: 70px;
+}
+
+/* Titulos de cada seccion del menu */
+.menu-section h2 {
+    font-size: 1.6rem;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+}
+
+/* Icono decorativo antes del titulo */
+.menu-section h2::before {
+    content: "⚜ ";
+    color: #5a0e0e;     /* tono granate medieval */
+    font-size: 1.4rem;
+}
+
+/* Cada plato del menu */
+.menu-item {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(90, 14, 14, 0.25); /* linea granate suave */
+}
+
+/* Encabezado con nombre del plato y precio */
+.menu-item__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nombre del plato */
+.menu-item__name {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+/* Precio del plato */
+.menu-item__price {
+    font-weight: bold;
+    color: #5a0e0e;      /* mismo color granate */
+    font-size: 1.1rem;
+    margin: 0 0 8px 0;
+}
+
+/* Descripcion del plato */
+.menu-item__description {
+    max-width: 600px;
+}
+
