@@ -1,0 +1,17 @@
+.center-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.info-block {
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+form input {
+    width: 250px;
+}
