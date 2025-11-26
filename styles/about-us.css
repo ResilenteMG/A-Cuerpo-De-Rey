@@ -1,0 +1,74 @@
+/* Contenedor principal de la pagina Sobre nosotros */
+.about-main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Seccion de introduccion */
+.about-intro {
+    margin-bottom: 40px;
+}
+
+/* Titulo principal */
+.about-intro h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Texto general de la pagina */
+.about-text {
+    line-height: 1.7;
+    font-size: 1rem;
+    max-width: 700px;
+}
+
+/* IMAGENES DEL EQUIPO (ambas usan este bloque) */
+.about-hero-image img,
+.about-team-image img {
+    width: 100%;
+    max-width: 450px;      /* controlar anchura */
+    max-height: 550px;     /* controlar altura */
+    object-fit: cover;     /* recorte elegante */
+    display: block;
+    margin: 20px auto;     /* centrar + aire */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Seccion de historia */
+.about-story {
+    margin-top: 40px;
+}
+
+.about-story h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+/* Separacion entre parrafos */
+.about-story .about-text {
+    margin-bottom: 12px;
+}
+
+/* Margen superior de la segunda imagen */
+.about-team-image {
+    margin-top: 20px;
+}
+
+/* Seccion de nombres del equipo */
+.about-team-names {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.about-team-names h3 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+.about-team-names p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
