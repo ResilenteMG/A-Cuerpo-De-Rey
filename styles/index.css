@@ -1,6 +1,22 @@
-header {
+
+header{
     background-color: blue;
 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+/* Texto y fondo generales */
+body {
+    background-color: #f8f5ef;      /* color de fondo tipo pergamino */
+    color: #2b2b2b;                 /* color de texto principal */
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
 }
 
 .logNavContainer img {
@@ -85,4 +101,26 @@ p {
     margin-bottom: 25px;
     color: black;
 
+}
+/* NAVBAR */
+.navbar {
+    background-color: #5a0e0e;
+    padding: 10px 0;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
 }
