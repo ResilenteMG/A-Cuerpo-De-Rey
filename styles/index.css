@@ -1,8 +1,14 @@
+header{
+    background-color: blue;
+
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
+
 
 /* Texto y fondo generales */
 body {
@@ -12,6 +18,89 @@ body {
     line-height: 1.6;
 }
 
+.logNavContainer img {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 5pc;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main {
+    background-color: ivory
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebar img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container {
+    background-color: #fff;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container> :content .container>.sidebar {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.content>.articleone {
+    background-color: cornflowerblue;
+    padding: 50px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.content>.articletwo {
+    background-color: cornflowerblue;
+    padding: 50px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: black;
+
+}
+
+.content>.articlethree {
+    background-color: cornflowerblue;
+    padding: 50px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: black;
+
+}
 /* NAVBAR */
 .navbar {
     background-color: #5a0e0e;
