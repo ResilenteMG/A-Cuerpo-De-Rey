@@ -1,5 +1,5 @@
 header{
-    background-color: blue;
+    background-color: rgb(82, 11, 11);
 
 }
 
@@ -105,6 +105,7 @@ p {
 .navbar {
     background-color: #5a0e0e;
     padding: 10px 0;
+   
 }
 
 .navbar-list {
