@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./styles/contact.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>A Cuerpo de Rey</h1>
+        <nav class="navbar-container">
+            <ul class="navbar-list">
+                <li class="navbar-list-item"><a class="navbar-link" href="index.html">Inicio</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="main-menu.html">Menú Principal</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="special-menu.html">Menú Especial</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="about-us.html">Sobre Nosotros</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="events.html">Eventos</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- CONTENIDO CENTRADO -->
+    <main class="center-content">
+        <h2>Ubicación y Contacto</h2>
+
+        <div class="info-block">
+            <h3>Dirección</h3>
+            <p>A Cuerpo de Rey</p>
+            <p>Carrer dels Comtes Reials, 14 — Barrio Gótico, Barcelona</p>
+        </div>
+
+        <div class="info-block">
+            <h3>Horarios</h3>
+            <p>L–J: 13:00–16:00 / 20:00–23:00</p>
+            <p>V–S: 13:00–16:00 / 20:00–00:00</p>
+            <p>D: 13:00–16:00</p>
+        </div>
+
+        <h3>Formulario de contacto</h3>
+        <form action="mailto:email.com" method="POST" enctype="text/plain">
+            <label>Nombre:</label>
+            <input type="text" name="A Cuerpo De Rey" required>
+
+            <label>Apellidos:</label>
+            <input type="text" name="surname" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Teléfono:</label>
+            <input type="tel" name="phone" required>
+
+            <label>Mensaje:</label>
+            <input type="text" name="mensaje" id="text-decoration">
+
+            <input type="reset" value="Borrar el formulario">
+            <input type="submit" value="Enviar el mensaje">
+        </form>
+    </main>
+
+    <footer>
+        <p>A Cuerpo de Rey — Barcelona</p>
+    </footer>
+</body>
+</html>
