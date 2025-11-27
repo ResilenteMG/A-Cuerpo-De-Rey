@@ -1,13 +1,6 @@
-/* Opción 1: Centrar todo el contenido del body */
-body {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
+.special-menu-container {
+text-align: center;
 }
-
-/* Opción 2: Si quieres centrar solo el contenido del menú (sin el navbar) */
-/* Envuelve todo el contenido después del header en un div con clase "menu-content" */
 .menu-content {
     max-width: 800px;
     margin: 0 auto;

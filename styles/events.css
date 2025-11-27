@@ -1,1 +1,47 @@
+.events-container{
+    text-align: center;
+    padding: 1rem;
+}
+.events-title {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #8B4513;
+    border-bottom: 2px solid #D4AF37;
+    padding-bottom: 5px;
+}
+.events-description, .events-available, .events-private {
+    margin-bottom: 2em;
+    padding: 0 1rem;
+}
+.events-description-title, .events-available-title, .events-private-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #A0522D;
+}
 
+.events-description-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.events-available-list, .events-private-list {
+    list-style-type: none;
+
+}
+
+.events-available-list-item, .events-private-list-item {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+    color: #333;
+}
+
+.footer-image-container {
+    margin-top: 3rem;
+}
+
+.footer-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
