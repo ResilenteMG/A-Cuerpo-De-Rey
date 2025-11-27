@@ -1,3 +1,7 @@
+*{
+    color: #5a0e0e;     /* tono granate medieval */
+ background-color: #f8f5ef;      /* color de fondo tipo pergamino */
+}
 .center-content {
     max-width: 800px;
     margin: 0 auto;
